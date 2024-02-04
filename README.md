@@ -28,6 +28,9 @@ In Python, the letter j is used to represent the imaginary unit (traditionally d
 
 ## Python Quiz 0003
 In Python, 6 % 10 is 6. What's the output of following code snippet?
+```python
+print (6 % -10)
+```
 
 a) -6<br>
 b) -4<br>
