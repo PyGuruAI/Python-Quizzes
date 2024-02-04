@@ -130,3 +130,15 @@ pytz==2023.4
 `pip freeze` is designed for generating machine-readable requirements files.<br>
 `!pip list` is a command that you would typically use in a Jupyter Notebook to list all installed Python packages. <br>
 
+
+## Python Quiz 0008
+What is the output of following Python code?
+
+```python
+print([1, 2, 3] + [4, 5, 6])
+```
+
+a) [5, 7, 9]<br>
+b) [1, 2, 3, 4, 5, 6]<br>
+
+**The correct answer is b) [1, 2, 3, 4, 5, 6]**
