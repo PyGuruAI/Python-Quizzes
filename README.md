@@ -142,3 +142,13 @@ a) [5, 7, 9]<br>
 b) [1, 2, 3, 4, 5, 6]<br>
 
 **The correct answer is b) [1, 2, 3, 4, 5, 6]**
+
+In Python, the + operator when used with lists performs list concatenation. This means it joins the two lists end-to-end. So, when you use [1, 2, 3] + [4, 5, 6], Python doesn't add the elements together numerically, but instead, it creates a new list that is the combination of the two lists.
+
+Here's a breakdown of how it works:
+
+You start with two lists: [1, 2, 3] and [4, 5, 6].
+The + operator joins these lists, placing the elements of the second list directly after the elements of the first list.
+So, the output of print([1, 2, 3] + [4, 5, 6]) is indeed option b) [1, 2, 3, 4, 5, 6].
+
+
