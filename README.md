@@ -27,7 +27,7 @@ d) x
 In Python, the letter j is used to represent the imaginary unit (traditionally denoted as i in mathematics) due to a convention in electrical engineering. In electrical engineering, i often represents current, so j is used instead to avoid confusion. This convention was adopted in Python for complex numbers.
 
 ## Python Quiz 0003
-In Python, 6 % 10 is 6. What's the output of this code snippet?
+In Python, 6 % 10 is 6. What's the output of following code snippet?
 
 a) -6<br>
 b) -4<br>
