@@ -152,3 +152,47 @@ The + operator joins these lists, placing the elements of the second list direct
 So, the output of print([1, 2, 3] + [4, 5, 6]) is indeed option b) [1, 2, 3, 4, 5, 6].
 
 
+## Python Quiz 0009
+What's the output of this Python code?
+
+```
+a = True <= False
+print(a)
+```
+
+a) 0<br>
+b) 1<br>
+c) False<br>
+d) True<br>
+
+**The correct answer is c) False**
+
+In Python, the Boolean values True and False can also be understood as 1 and 0 respectively. So when you see True <= False, it's akin to evaluating 1 <= 0.
+
+Now, let's evaluate the expression:
+
+1 <= 0: This is asking, "Is 1 less than or equal to 0?"
+The answer is clearly no, because 1 is greater than 0. Therefore, this expression is False.
+When we assign this result to a, we get a = False.
+
+So, when print(a) is executed, it prints False.
+
+That's why the correct answer is C) False. It's a nifty example of how Python handles Boolean values and comparisons! 🐍✨
+
+## Python Quiz 0010
+Which Python code correctly calculates and prints the sum of two numbers?
+
+a) `print(sum([5, 5]))`<br>
+b) `print(sum(5, 5))`<br>
+
+**The correct answer is a) `print(sum([5, 5]))`**
+
+Option a) print(sum([5, 5])): This is the correct way to use the sum() function in Python. sum() takes an iterable (like a list) as an argument. Here, [5, 5] is a list containing two elements, both 5. sum([5, 5]) correctly adds up these elements, resulting in 10, and print() then prints this result.
+
+Option b) print(sum(5, 5)): This is incorrect because the sum() function does not accept individual numbers as separate arguments. It expects an iterable (like a list, tuple, etc.) as the first argument and optionally, a starting point as the second argument (which is not used here). Hence, this code will throw a TypeError.
+
+
+
+
+
+
