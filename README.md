@@ -199,7 +199,7 @@ print(bool("False"))
 a) `True`<br>
 b) `False`<br>
 c) `1`<br>
-d) `o`<br>
+d) `0`<br>
 
 **The correct answer is a) `True`**
 
