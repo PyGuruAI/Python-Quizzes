@@ -192,7 +192,18 @@ Option a) print(sum([5, 5])): This is the correct way to use the sum() function 
 Option b) print(sum(5, 5)): This is incorrect because the sum() function does not accept individual numbers as separate arguments. It expects an iterable (like a list, tuple, etc.) as the first argument and optionally, a starting point as the second argument (which is not used here). Hence, this code will throw a TypeError.
 
 
+## Python Quiz 0011
+What is the output of following Python code?<br>
+print(bool("False"))
 
+a) `True`<br>
+b) `False`<br>
+c) `1`<br>
+d) `o`<br>
+
+**The correct answer is a) `True`**
+
+This is because in Python, a non-empty string is considered "truthy," and when passed to the bool() function, it returns True. So, bool("False") results in True.
 
 
 
