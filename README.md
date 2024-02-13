@@ -1,11 +1,11 @@
 # Correct Answers for Python Quizzes
-Video Sources: For more insightful and educational content, check out our videos at https://www.youtube.com/@pyguruai
+Video Sources: For more insightful and educational content, check out our videos at [https://www.youtube.com/@PyGuruOfficial](https://www.youtube.com/@PyGuruOfficial)
 
 ## Python Quiz 0001
 Are the following statements valid in Python 3?
 
-a, b = 0 ** 3, 0 / 3 <br>
-print(a, b) <br>
+`a, b = 0 ** 3, 0 / 3` <br>
+`print(a, b)` <br>
 
 a) Yes<br>
 b) No
@@ -194,7 +194,7 @@ Option b) print(sum(5, 5)): This is incorrect because the sum() function does no
 
 ## Python Quiz 0011
 What is the output of following Python code?<br>
-print(bool("False"))
+`print(bool("False"))`
 
 a) `True`<br>
 b) `False`<br>
@@ -204,6 +204,33 @@ d) `0`<br>
 **The correct answer is a) `True`**
 
 This is because in Python, a non-empty string is considered "truthy," and when passed to the bool() function, it returns True. So, bool("False") results in True.
+
+
+## Python Quiz 0012
+What is the output of following Python code?<br>
+`print(1 + True)`
+
+a) `1`<br>
+b) `2`<br>
+c) `TypeError!`<br>
+d) `0`<br>
+
+**The correct answer is b) `2`**
+
+In Python, True is treated as 1, so 1 + True equals 2.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
