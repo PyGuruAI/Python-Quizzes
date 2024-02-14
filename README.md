@@ -220,6 +220,20 @@ d) `0`<br>
 In Python, True is treated as 1, so 1 + True equals 2.
 
 
+## Python Quiz 0013
+Using the datetime module, which statement correctly prints the current date and time?
+`import datetime`
+
+a) `print(datetime.date.now())`<br>
+b) `print(datetime.datetime.now())`<br>
+
+
+**The correct answer is b) `print(datetime.datetime.now())`**
+
+`datetime.date.now()`: This is not a valid method in the datetime module. date is a class that represents a date, without a time component. The now() method does not exist for the date class. If you want to get the current date, you would use datetime.date.today() instead.<br>
+`datetime.datetime.now()`: This is the correct way to get the current date and time. The datetime class in the datetime module represents both a date and a time. The now() method of this class returns the current local date and time. It includes year, month, day, hour, minute, second, and microsecond, which is what you typically need when you want the complete current date and time.
+
+
 
 
 
