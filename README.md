@@ -234,7 +234,21 @@ b) `print(datetime.datetime.now())`<br>
 `datetime.datetime.now()`: This is the correct way to get the current date and time. The datetime class in the datetime module represents both a date and a time. The now() method of this class returns the current local date and time. It includes year, month, day, hour, minute, second, and microsecond, which is what you typically need when you want the complete current date and time.
 
 
+## Python Quiz 0014
+What is the output of following Python code?<br>
+```
+mylist = [1, 2, 3, 4]
+print(mylist[-1:-1])
+```
 
+a) `[]`<br>
+b) `4`<br>
+c) `IndexError:`<br>
+d) `1`<br>
+
+**The correct answer is a) `[]`**
+
+`mylist[-1:-1]` results in an empty list as the start and stop indices are the same, including no elements.
 
 
 
