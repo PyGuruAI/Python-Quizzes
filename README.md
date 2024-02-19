@@ -252,7 +252,21 @@ d) `1`<br>
 
 
 
+## Python Quiz 0015
+What is the output of following Python code?<br>
+```
+mydict = {"dob": 1998, "dob": 2002, "dob": 2005}
+print(mydict["dob"])
+```
 
+a) `1998`<br>
+b) `2002`<br>
+c) `2005`<br>
+d) `KeyError:`<br>
+
+**The correct answer is c) `2005`**
+
+In Python dictionaries, each key must be unique. If you assign multiple values to the same key, the last assignment overwrites the previous ones. In this example, the key dob is assigned three different values (1998, 2002, 2005), with 2005 being the last one. So, when we print mydict["dob"], it outputs 2005, the last assigned value.
 
 
 
