@@ -1,5 +1,4 @@
 # Correct Answers for Python Quizzes
-Video Sources: For more insightful and educational content, check out our videos at [https://www.youtube.com/@PyGuruOfficial](https://www.youtube.com/@PyGuruOfficial)
 
 ## Python Quiz 0001
 Are the following statements valid in Python 3?
